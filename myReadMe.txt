@@ -1,0 +1,1 @@
+The path to the images need to be changed in the "firstAssign.html" file in order for the webpage to load properly

@@ -1,0 +1,205 @@
+
+.firstSection
+{
+  width : 80%;
+  /*height: 507px;*/
+  background-color: rgb(0, 191,236);
+  margin-left:10%;
+
+}
+
+.secondSection
+{
+  width : 80%;
+  /*height:  350px;*/
+  background-color: rgb(6, 36,38);
+  margin-left:10%;
+}
+
+.thirdSection
+{
+	
+  width : 80%;
+  /*height:  350px;*/
+  background-color: rgb(0, 191,236);
+  margin-left:10%;
+}
+
+.fourthSection
+{
+  width : 80%;
+  /*height:  350px;*/
+  background-color: rgb(255, 255,255);
+  margin-left:10%;
+	
+}
+
+.footerSection
+{
+  width : 80%;
+  /*height:  200px;*/
+  background-color: rgb(6, 36,38);
+  margin-left:10%;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 2048px)
+{
+  .firstSection, .secondSection, .thirdSection, .fourthSection{
+       height: 507px;
+  }
+
+  .footerSection{
+
+       height: 200px;
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px)
+{
+  .secondSection, .thirdSection, .fourthSection, .footerSection{
+       height: 700px;
+  }
+
+  .firstSection{
+
+       height: 1100px;
+  }
+
+  .footerSection{
+
+       height: 300px;
+  }
+
+}
+
+/*@media (min-width: 768px) and (max-width: 1024px)
+{
+  .firstSection, .secondSection, .thirdSection, .fourthSection, .footerSection{
+       height: 550px;
+  }
+
+  .footerSection{
+
+       height: 300px;
+  }
+
+}*/
+
+.firstParagraph{
+
+   width : 50%;
+  height:  150px;
+  clear:both;
+  float: left;
+ 
+
+}
+
+.theSecondParagraph{
+
+  width : 35%;
+  height:  150px;
+  clear:both;
+  float: right;
+  padding-right:50px;
+ 
+
+}
+
+
+.theThirdParagraph{
+
+  width : 30%;
+  height:  150px;
+  clear:both;
+  float: right;
+  padding-right:50px;
+  text-align: right;
+}
+
+.theFourthParagraph{
+
+  width : 40%;
+  height:  150px;
+  clear:both;
+  float: left;
+  padding-right:50px;
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+	font-family: sans-serif, Arial;
+}
+
+h3, h2, h5, h4, p
+{
+  color: white;
+  padding-top:5px;
+  padding-left:100px;
+  font-family: sans-serif;
+  
+
+}
+
+.toTheSide
+{	
+	width : 40%;
+    height:  150px;
+	float: right;
+	padding-right:5%;
+	
+}
+
+.theFooter
+{
+   padding-top:5%;
+   text-align: center;
+}
+
+.theFourthImage
+{
+    width : 40%;
+    /*height:  120px;*/
+	float: right;
+	padding-right:2%;
+
+}
+
+.theThirdImage
+{
+    width : 40%;
+    /*height:  120px;*/
+	float: left;
+	padding-left:10%;
+	padding-top:2%;
+
+}
+
+.theSecondImage
+{
+    width : 40%;
+    /*height:  120px;*/
+	float: left;
+	padding-left:10%;
+	padding-top:2%;
+
+}
+
+.theFirstImage
+{
+    width : 40%;
+   /* height:  150px;*/
+	padding-left:15%;
+
+}
+
+#socialMedia
+{
+   padding-left:80px;
+}
+
